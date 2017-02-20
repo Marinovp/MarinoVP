@@ -1,5 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+/*
+Marino Vasquez
+2/19/2017
+COP 10000
+
+Description:
+Calculate shipping prices base on weight. 
+Weight limit: > 50 pounds cannot be shipped.
+				- Pounds are not pro-rated. 600 = 900 or 1000
+Shipping Rate: 
+	<= 10 pounds = 2.00 * distance / segment of the distance.
+	> 10 & <= 50 pounds = 4.5 * distance / segment of the distance.
+*/
+
 main() {
 	//Create the variables
 	double pounds, price = 0, price2 = 0, packagePrice;
@@ -11,9 +26,9 @@ main() {
 	printf("How many pounds does the package weight? \n");
 	scanf_s("%lf", &pounds);
 	
-	/* Split the distance by segment of 500, by checking if there is any
-	residual after every 500 pounds
+	/* Check if the distance is divisible by 500. If so divide by 500 and add 1 per every 500.
 	*/
+
 	if (distance % 500 == 0);
 	packageDistance = (distance / 500 + 1);
 	
