@@ -17,7 +17,7 @@ Shipping Rate:
 
 main() {
 	//Create the variables
-	double pounds, price = 0, price2 = 0, packagePrice;
+	double pounds, price = 0, packagePrice;
 	int packageDistance, distance = 0;
 	
 	//Get the requirements for the package
@@ -40,7 +40,7 @@ main() {
 	// Assign the price base on pounds
 	else
 		if (pounds <= 10) price = 2.00;
-	if (pounds > 10 & pounds <= 50) price = 4.5;
+		if (pounds > 10 & pounds <= 50) price = 4.5;
 
 	//Calculate the price
 	packagePrice = price * packageDistance;

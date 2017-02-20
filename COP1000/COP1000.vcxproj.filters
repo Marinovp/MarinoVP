@@ -18,5 +18,14 @@
     <ClCompile Include="Week5_LogicalOperators.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week5_RepetitionWhile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week5_Part3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Week4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
