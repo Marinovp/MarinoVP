@@ -3,7 +3,7 @@
 
 /*
 Marino Vasquez
-2/19/2017
+3/13/2017
 COP 10000
 
 Description:
@@ -26,11 +26,13 @@ main() {
 	printf("How many pounds does the package weight? \n");
 	scanf_s("%lf", &pounds);
 	
-	/* Check if the distance is divisible by 500. If so divide by 500 and add 1 per every 500.
+	///* Check if the distance is divisible by 500. If so divide by 500 and add 1 per every 500.
 	*/
 
-	if (distance % 500 == 0);
-	packageDistance = (distance / 500 + 1);
+	
+	if (distance % 500 == 0  );
+	packageDistance = (distance / 500 +1);
+	
 	
 	// Package exceed the requirements of 50 pounds
 	if (pounds > 50) {
@@ -47,7 +49,6 @@ main() {
 	
 	//Display the total price
 	printf("Your shipping charge is %.2lf \n", packagePrice);
-	
 	
 	system("pause");
 }
