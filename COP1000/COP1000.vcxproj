@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week4.c" />
+    <ClCompile Include="Week5_Final.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F5664581-88E1-4EBC-B07B-100F7E601615}</ProjectGuid>

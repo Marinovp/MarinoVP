@@ -63,6 +63,8 @@ main(){
 	/*
 	Ask user to enter test scores. When they have entered all the scores, they will enter the value -1.
 	The program will sum up all the scored entered, and output sum
+
+	70 80 90 -1  Expected 240
 	*/
 
 
