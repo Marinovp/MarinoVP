@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 
 /*
@@ -27,7 +27,7 @@ main() {
 	scanf_s("%lf", &pounds);
 	
 	///* Check if the distance is divisible by 500. If so divide by 500 and add 1 per every 500.
-	*/
+	
 
 	
 	if (distance % 500 == 0  );
@@ -51,4 +51,45 @@ main() {
 	printf("Your shipping charge is %.2lf \n", packagePrice);
 	
 	system("pause");
-}
+
+
+
+
+	/*
+	----Working code from Prof.
+	﻿#include 
+#include 
+main() {
+    //variable declarations
+    double shippingCharge, weight;
+    int distance, shippingSegments;
+
+    //Input - weight, distance
+    printf("Enter package weight: ");
+    scanf_s("%lf", &weight);
+    printf(" Enter shipping distance: ");
+    scanf_s("%i", &distance);
+
+    //Process - determine shippingSegments
+    shippingSegments = distance % 500;
+    if (shippingSegments == 0)
+        shippingSegments = distance / 500;
+    else shippingSegments = distance / 500 + 1;
+    
+    //Process - determine rate
+    if (weight <= 10)
+    {
+        shippingCharge = shippingSegments * 2; //calculating shipping charge.
+        printf(" Your shipping charge is: $%.2lf ", shippingCharge);
+    }
+    else if (weight <=50) 
+    {
+        shippingCharge = shippingSegments * 4.5; //calculating shipping charge.
+        printf(" Your shipping charge is: $%.2lf ", shippingCharge);
+    }
+    else
+    {
+        printf(" Sorry, we only ship packages of 50 pounds or less. ");
+    }
+    system("pause");
+	}*/
